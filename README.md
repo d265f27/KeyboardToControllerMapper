@@ -1,7 +1,18 @@
 # KeyboardToControllerMapper
 Allows mapping a virtual controller button press to the press of a keyboard key, like a reverse Joy2Key.
 
-# Usage
+# KeyboardToControllerMapper Usage
+Controller number is the currently selected controller.
+The program automatically plugs in controller 1 when it starts, and unplugs all when it closes cleanly.
+You can unplug 1 and plug in a different controller number if you wish.
+
+Load/save - Loads and saves the mapped keys to "settings.txt".
+This is automatically loaded on program start.
+
+The rest is mainly selecting and showing the desired mappings.
+Use "Find By Key Press"! Click it then press the desired key on your keyboard.
+The official names can be a bit confusing.
+
 # Driver Install Instructions
 Firstly, save your work, this has been known to crash stuff, as in Windows itself.
 
@@ -20,22 +31,10 @@ Now install the driver. This requires privileges as it is a driver install. It m
 If the KeyboardToControllerMapper software says to install the driver, just install the driver again I guess.
 We have encountered it where it needs to be reinstalled before every use for some odd reason.
 
-# KeyboardToControllerMapper Usage
-Controller number is the currently selected controller.
-The program automatically plugs in controller 1 when it starts, and unplugs all when it closes cleanly.
-You can unplug 1 and plug in a different controller number if you wish.
-
-Load/save - Loads and saves the mapped keys to "settings.txt".
-This is automatically loaded on program start.
-
-The rest is mainly selecting and showing the desired mappings.
-Use "Find By Key Press"! Click it then press the desired key on your keyboard.
-The official names can be a bit confusing.
-
 # Copyright
 Based on code from Morgan Zolob (Mogzol), his code Licensed under MIT. 
-  - github.com/mogzol/ScpDriverInterface
+  github.com/mogzol/ScpDriverInterface
 His code, and the whole of the driver, is based off code from Scarlet.Crush, see forum thread.
-  - http://forums.pcsx2.net/Thread-XInput-Wrapper-for-DS3-and-Play-com-USB-Dual-DS2-Controller
+  http://forums.pcsx2.net/Thread-XInput-Wrapper-for-DS3-and-Play-com-USB-Dual-DS2-Controller
 InterceptKeys.cs is mostly by Microsoft, see the start of the file for details.
 Any modifications to the above, or additional files, are copyright Elliot Dawber (d265f27) 2017, MIT License.

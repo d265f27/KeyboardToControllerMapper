@@ -33,7 +33,7 @@ We have encountered it where it needs to be reinstalled before every use for som
 
 # Copyright
 Based on code from Morgan Zolob (Mogzol), his code Licensed under MIT. 
-  github.com/mogzol/ScpDriverInterface
+  http://github.com/mogzol/ScpDriverInterface
   
 His code, and the whole of the driver, is based off code from Scarlet.Crush, see forum thread.
   http://forums.pcsx2.net/Thread-XInput-Wrapper-for-DS3-and-Play-com-USB-Dual-DS2-Controller
